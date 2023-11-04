@@ -60,3 +60,12 @@ article {
 .article-div {
   display:block;
  }
+
+figure-box {
+  display:block;
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+}
