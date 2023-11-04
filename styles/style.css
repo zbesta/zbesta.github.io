@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "Overpass";
+  src: url("Overpass-VariableFont_wght.ttf");
+}
+
 html {
   background-color: #283849;
-  font-family: Verdana, sans-serif;
+  font-family: Overpass, Arial, Helvetica, sans-serif;
   color: black;
 }
 
@@ -18,6 +23,7 @@ h1 {
   text-shadow: 1px 1px 1px black;
   text-align: center;
   background: #7A848D;
+  font-weight: 900;
 }
 
 h2 {
@@ -25,14 +31,22 @@ h2 {
   background: #283849;
   color: white;
   text-align: center;
+  font-weight: 900;
 }
 
 h3 {
+  padding: 0.25rem;
   text-align: center;
+  font-weight: 900;
+}
+
+h4 {
+  padding: 0.25rem;
+  font-weight: 700;
 }
 
 p {
-  padding: 5px 5px 5px 5px;
+  padding: 0.25rem;
 }
 
 article {
